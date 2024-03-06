@@ -1,0 +1,31 @@
+1.)     insatll virtual environment
+        -- pip install virtualenv
+
+2.)     create virtualenv folder
+        -- virtalenv my_virtual_envarament_for_django
+
+3.) Execute virtalenv
+         -- .\my_virtual_envarament_for_django\Scripts\activate.ps1
+
+4.) If you get error, open terminal as admin and run command
+        -- Set-ExecutionPolicy Unrestricted
+
+Make sure you are within your virtual environment
+
+Six steps to have fully working APIs
+1. insatll python , Django and DRF(Django REST Framework)
+2. Setup Django Models ---------------------------------> For Data
+3. Set up Serializers  ---------------------------------> For JSON conversion
+4. Set up views /contoroller in java -------------------> For Request acceptance
+5. Set up urls         ---------------------------------> For mapping urls and views
+6. Test your APIS --->Use Browser and POSTMAN softwear
+
+
+These are random command used 
+django-admin startproject companyapi
+cd .\companyapi\
+python .\manage.py runserver
+python manage.py migrate    
+
+
+pip install djangorestframework   
